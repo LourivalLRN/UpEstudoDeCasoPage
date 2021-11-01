@@ -6,17 +6,17 @@
 }
 
 body {
-  background: #F5F5F5;
+  margin: 2em 8em;
 }
 
-h2 {
-  color: red;
+main {
+  background: -o-linear-gradient(yellow blue);
 }
+
 
 .container {
   width: 90%;
   max-width: 1100px;
-
   margin: 0 auto;
 }
 
@@ -38,6 +38,7 @@ h2 {
   width: 300px;
   height: 300px;
   max-width: 100%;
+  padding-left: 10px;
 }
 
 .classes {
@@ -58,13 +59,19 @@ h2 {
 }
 
 .classes-card {
-  width: 420px;
-  height: 290px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   border-radius: 5px;
   padding: 20px;
+  margin: 20px;
+  width: 400px;
+  transition: all 0.3s ease-out;
+}
+
+.classes-card:hover {
+  transform: translateY(-5px);
 }
 
 .classes-header {
@@ -98,10 +105,6 @@ h2 {
   left: 0px;
 }
 
-#header {
-  padding-left: 7em;
-  padding-bottom: 5em;
-}
 
 .approved {
   margin-top: 8em;
@@ -111,20 +114,15 @@ h2 {
  margin-bottom: 5em;
 }
 
-.approved .classes-card {
-  box-shadow: 7px, 7px, 13px, 0 rgba(50, 50, 50, 0.22);
-  padding: 20px;
-  margin: 20px;
-  width: 400px;
-  transition: all 0.3s ease-out;
-}
-
-.approved .classes-card:hover {
-  transform: translateY(-5px);
+.approved p {
+  margin-bottom: 10em;
 }
 
 .university {
   flex-direction: column;
+  padding-left: 14em;
+  padding-bottom: 5em;
+  align-items: center;
 }
 
 .area {
@@ -147,20 +145,70 @@ h2 {
   margin: 2em 8em;
 }
 
+
 h2 {
   color: #F5F5F5;
 }
 
 .quemsomos {
-  margin: 2em 8em;
+  margin: 1em 8em;
   text-align: justify;
   line-height: 20px;
+  background-color: greenyellow;
   
+}
+
+.quemsomos p {
+  padding: 10px 30px;
 }
 
 h3{
   padding-top: 20px;
 }
+
+.classe-content h3 {
+  background-color: green;
+  margin: 2em 8em;
+  color: #F5F5F5;
+
+}
+
+.redes-sociais h2 {
+  background-color: green;
+  margin: 2em 8em;
+}
+
+.results h2 {
+  background-color: green;
+  margin: 2em 8em;
+}
+
+.results {
+  margin: 2em 8em;
+  text-align: justify;
+  line-height: 20px;
+}
+
+.title-footer{
+  background-color: green;
+  margin: 2em 8em;
+}
+
+.redes-sociais {
+  position: relative;
+  height: 30px;
+  width: 100%; 
+  margin: 2em 8em;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
 
 @media(min-width: 680px) {}
 
