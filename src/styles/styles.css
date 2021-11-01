@@ -7,8 +7,10 @@
 
 body {
   margin: 2em 8em;
+  /* background-image: linear-gradient(to bottom, #75B095, #0F5837); */
 }
 
+<<<<<<< HEAD
 .logo img {
   height: 150px;
   width: 900px;
@@ -21,11 +23,30 @@ main {
   background: -o-linear-gradient(yellow blue);
 }
 
+main {}
 
 .container {
   width: 90%;
   max-width: 1100px;
   margin: 0 auto;
+}
+
+.wave {
+  position: relative;
+  height: 30vw;
+  width: 100%;
+  margin: 1em 8em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.
+
+.wave img {
+  width: 300px;
+  height: 300px;
+  max-width: 100%;
+  padding-left: 10px;
 }
 
 .classes {
@@ -49,12 +70,13 @@ main {
   height: 300px;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   padding: 20px;
   margin: 20px;
   width: 400px;
   transition: all 0.3s ease-out;
+  background-color: #FFF;
 }
 
 .classes-card:hover {
@@ -92,23 +114,18 @@ main {
   left: 0px;
 }
 
-
 .approved {
   margin-top: 8em;
 }
 
 .approved .classes {
- margin-bottom: 5em;
-}
-
-.approved p {
-  margin-bottom: 10em;
+  margin-bottom: 5em;
 }
 
 .university {
   flex-direction: column;
   padding-left: 14em;
-  padding-bottom: 5em;
+  padding-bottom: 2em;
   align-items: center;
 }
 
@@ -132,7 +149,6 @@ main {
   margin: 2em 8em;
 }
 
-
 h2 {
   color: #F5F5F5;
 }
@@ -141,8 +157,6 @@ h2 {
   margin: 1em 4em;
   text-align: justify;
   line-height: 20px;
-  background-color: greenyellow;
-  
 }
 
 .quemsomos  {
@@ -154,7 +168,7 @@ h2 {
   padding: 10px 30px;
 }
 
-h3{
+h3 {
   padding-top: 20px;
 }
 
@@ -162,7 +176,6 @@ h3{
   background-color: green;
   margin: 2em 8em;
   color: #F5F5F5;
-
 }
 
 .redes-sociais h2 {
@@ -181,7 +194,7 @@ h3{
   line-height: 20px;
 }
 
-.title-footer{
+.title-footer {
   background-color: green;
   margin: 2em 8em;
 }
@@ -189,7 +202,7 @@ h3{
 .redes-sociais {
   position: relative;
   height: 30px;
-  width: 100%; 
+  width: 100%;
   margin: 2em 8em;
   display: flex;
   justify-content: space-around;
@@ -200,7 +213,6 @@ footer img {
   height: 50px;
   border-radius: 50%;
 }
-
 
 @media(min-width: 680px) {}
 
