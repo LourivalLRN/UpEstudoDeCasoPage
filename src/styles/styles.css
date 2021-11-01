@@ -9,6 +9,14 @@ body {
   margin: 2em 8em;
 }
 
+.logo img {
+  height: 150px;
+  width: 900px;
+  margin: 2em 6em;
+  
+  
+}
+
 main {
   background: -o-linear-gradient(yellow blue);
 }
@@ -18,27 +26,6 @@ main {
   width: 90%;
   max-width: 1100px;
   margin: 0 auto;
-}
-
-.wave { 
-  position: relative;
-  height: 50vw;
-  width: 100%; 
-  margin: 1em 8em;
-  display: flex;
-  justify-content: space-around;
-}
-
-.wave .text-content {
-  max-width: 320px;
-  padding: 20px 0;
-}
-
-.wave img {
-  width: 300px;
-  height: 300px;
-  max-width: 100%;
-  padding-left: 10px;
 }
 
 .classes {
@@ -151,11 +138,16 @@ h2 {
 }
 
 .quemsomos {
-  margin: 1em 8em;
+  margin: 1em 4em;
   text-align: justify;
   line-height: 20px;
   background-color: greenyellow;
   
+}
+
+.quemsomos  {
+  background-color: mediumseagreen;
+
 }
 
 .quemsomos p {
