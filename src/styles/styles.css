@@ -106,6 +106,7 @@ body {
 
 .classes p {
   padding: 0px 42px 60px;
+  text-align: justify;
 }
 
 .row {
