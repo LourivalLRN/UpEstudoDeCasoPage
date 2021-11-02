@@ -1,8 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  outline: none;
+   box-sizing: border-box; /*preenchimento e a borda na largura e altura total de um elemento. */
+  outline: none; /* Um contorno é uma linha desenhada fora da borda do elemento. */
 }
 
 .container {
@@ -12,20 +12,23 @@
 }
 
 .wave {
-  font-family: 'Lato', sans-serif;
-  position: relative;
+  font-family: 'Lato', sans-serif; /*Define uma família de fontes*/
+  position: relative; /*define como um elemento pode ser posicionado (renderizado) no documento (página)*/
   height: 400px;
   width: 100%;
-  margin: 0px 0px -40px;
-  display: flex;
-  justify-content: space-around;
+  margin: 0px 0px -40px; /* topo | horizontal | inferior */
+  display: flex; 
+  justify-content: space-around;  /*define como o navegador distribui o espaço entre e ao redor dos itens de conteúdo 
+  ao longo do eixo principal de um contêiner flexível e do eixo embutido de um contêiner de grade.*/
   background-image: linear-gradient(to right, #79f5b1, #03BB55);
 }
 
-.wave:after {
-  content: "";
-  display: block;
-  position: absolute;
+.wave:after {   /* Seletor = cria um  pseudo-elemento  que é o último filho do elemento selecionado. */
+  content: "";  /* é usada com os pseudoelementos ::beforee ::afterpara gerar conteúdo em um elemento */
+  display: block; /* especifica o tipo de caixa de renderização usada por um elemento. 
+  O elemento gera uma caixa de elemento de bloco. */
+  position: absolute; /* é posicionado em relação ao ancestral posicionado mais próximo
+   (em vez de posicionado em relação à janela de visualização, como fixo) */
   border-radius: 100% 50% 0% 50%;
   width: 100%;
   height: 170px;
@@ -50,9 +53,11 @@
 
 .classes {
   width: 100%;
-  display: grid;
-  grid-template-columns: auto auto;
-  justify-items: center;
+  display: grid;  /* As grades podem ser usadas ​​para o design de layouts de grandes
+   de uma página da web, assim como de pequenos elementos de interface  */
+  grid-template-columns: auto auto;  /* especifica o número (e as larguras) das colunas em um layout de grade */
+  justify-items: center; /* define o padrão para todos os itens da caixa, dando a todos eles
+   uma maneira padrão de justificar cada caixa ao longo do eixo apropriado */
 }
 
 .area-prof .classes .profs {
@@ -63,7 +68,7 @@
 }
 
 .classes .classe-content h3 {
-  margin-bottom: 1rem;
+  margin-bottom: 1rem; /* toma sempre por base o elemento raíz da página */
 }
 
 .classes .classes-header img {
@@ -75,13 +80,15 @@
 .classes-card {
   height: 300px;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /* define como os itens flexíveis são importantes no contêiner flexível,
+  definindo o eixo principal e a direção */
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   padding: 20px;
   margin: 20px;
   width: 400px;
-  transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out; /* permitem que você altere os valores das propriedades suavemente,
+  ao longo de um determinado período.  ease-out = especifica um efeito de transição com um final lento*/
   background-color: #FFF;
 }
 
@@ -90,8 +97,8 @@
 }
 
 .disciplinas img{
-  transform: translateY(-5px);
-  transition: all 0.3s ease-out;
+  transform: translateY(-5px); /*Movimento um elemento em uma determinada direção*/
+  transition: all 0.3s ease-out; /*Ela permite definir a transição entre dois estados de um elemento*/
 }
 
 .classes-header {
