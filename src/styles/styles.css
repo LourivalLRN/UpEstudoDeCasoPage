@@ -210,15 +210,24 @@ h3 {
   padding-bottom: 150px;
 }
 
-.results h2 {
-  background-color: green;
-  margin: 2em 8em;
+.results h4 {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(240, 250, 241);
+  margin: 5em 12em;
+  margin-top: 5px;
+  text-align: center;
 }
 
 .results {
   margin: 2em 8em;
   text-align: justify;
   line-height: 20px;
+}
+
+.class-result {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(225, 247, 227);
+  margin: 5em 12em;
 }
 
 footer {
