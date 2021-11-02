@@ -10,15 +10,6 @@ body {
   /* background-image: linear-gradient(to bottom, #75B095, #0F5837); */
 }
 
-<<<<<<< HEAD
-.logo img {
-  height: 150px;
-  width: 900px;
-  margin: 2em 6em;
-  
-  
-}
-
 main {
   background: -o-linear-gradient(yellow blue);
 }
@@ -81,6 +72,11 @@ main {}
 
 .classes-card:hover {
   transform: translateY(-5px);
+}
+
+.disciplinas img{
+  transform: translateY(-5px);
+  transition: all 0.3s ease-out;
 }
 
 .classes-header {
