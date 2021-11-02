@@ -10,20 +10,9 @@ body {
   /* background-image: linear-gradient(to bottom, #75B095, #0F5837); */
 }
 
-.logo{
-  display: flex;
-}
-
-.logo img {
-  height: 450px;
-  width: 300;
-}
-
 main {
   background: -o-linear-gradient(yellow blue);
 }
-
-main {}
 
 .container {
   width: 90%;
@@ -39,8 +28,6 @@ main {}
   display: flex;
   justify-content: space-around;
 }
-
-.
 
 .wave img {
   width: 300px;
